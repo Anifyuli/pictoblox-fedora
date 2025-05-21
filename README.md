@@ -2,9 +2,8 @@
 
 This Bash script allows you to install **PictoBlox** on **Fedora Linux** using the `.deb` package provided by STEMpedia.
 
-> **Note:** Since STEMpedia only provides `.deb` installers (for Debian/Ubuntu-based systems), this script manually extracts and installs the contents on Fedora.
+**Note:** Since STEMpedia only provides `.deb` installers (for Debian/Ubuntu-based systems), this script manually extracts and installs the contents on Fedora.
 
----
 
 ## Requirements
 
@@ -12,7 +11,6 @@ This Bash script allows you to install **PictoBlox** on **Fedora Linux** using t
 - `sudo` privileges
 - The PictoBlox `.deb` installer (available at the [PictoBlox download page](https://thestempedia.com/product/pictoblox/#downloads))
 
----
 
 ## How to Use
 
@@ -55,7 +53,6 @@ chmod +x script.sh
 ./script.sh --uninstall
 ```
 
----
 
 ## What the Script Does
 
@@ -65,7 +62,6 @@ chmod +x script.sh
 * Removes any previously installed version of PictoBlox
 * Adds a launcher icon to your application menu (if available)
 
----
 
 ## Uninstallation
 
@@ -75,20 +71,17 @@ You can use the `--uninstall` flag to completely remove PictoBlox from your syst
 * Removes the `.desktop` launcher
 * Cleans up symlinks and icon caches
 
----
 
 ## Disclaimer
 
 This script is **unofficial** and community-maintained. Use it at your own risk.
 If you encounter any issues, ensure the `.deb` file from STEMpedia is valid and has the expected structure.
 
----
 
 ## License
 
 This project is released under the MIT License.
 
----
 
 ## Supported Fedora Versions
 
