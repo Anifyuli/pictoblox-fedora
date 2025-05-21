@@ -7,7 +7,7 @@ This Bash script allows you to install **PictoBlox** on **Fedora Linux** using t
 
 ## Requirements
 
-- Fedora Linux (tested on Fedora 39+)
+- Fedora Linux (tested on Fedora 42)
 - `sudo` privileges
 - The PictoBlox `.deb` installer (available at the [PictoBlox download page](https://thestempedia.com/product/pictoblox/#downloads))
 
